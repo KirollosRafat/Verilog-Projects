@@ -1,2 +1,2 @@
 # Verilog-Projects:
-This for a specific projects Written in Verilog.
+This for specific projects Written in Verilog.
