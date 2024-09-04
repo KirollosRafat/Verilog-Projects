@@ -9,7 +9,7 @@
 // Project Name: 
 // Target Devices: 
 // Tool Versions: 
-// Description: A Parameterized Arthimetic and Logical Unit that performs various operations on its operands
+// Description: A Parameterized Arithmetic and Logical Unit that performs various operations on its operands
 // 
 // Dependencies: 
 // 
