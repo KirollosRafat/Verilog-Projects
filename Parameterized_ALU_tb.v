@@ -36,7 +36,7 @@ begin
 end
 
 //Instansiate A Design Under Test:
-  Parameterized_ALU ALU_DUT#(.N(n))(
+Parameterized_ALU #(.N(n)) ALU_DUT(
 .clk(clk),
 .ALU_Func(ALU_Func),
 .A(A),
