@@ -1,2 +1,3 @@
 # Verilog-Projects:
-# This is for specific projects Written in Verilog.
+
+# Verilog Projects with RTL Coding and Testbenches. 
