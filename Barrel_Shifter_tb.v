@@ -26,10 +26,12 @@ reg  [7:0] IN;
 reg  [2:0] shift;
 wire [7:0] OUT;
 
-Barrel_Shifter barrel(
+Barrel_Shifter barrel
+(
 .IN(IN),
 .shift_amnt(shift),
-.OUT(OUT));
+.OUT(OUT)
+);
 
 initial 
 begin
@@ -60,7 +62,6 @@ shift = 3'd6;
 #5
 IN = 8'b1101_0010;
 shift = 3'd7;
-
 end
 
 initial
@@ -68,7 +69,6 @@ begin
 $dumpfile("Barrel_Shifter_tb.vcd");
 $dumpvars(0,Barrel_Shifter_tb);
 $monitor(" When input = %b and shift_amount = %d ---> output = %b",IN,shift,OUT);
-
 end
 
 endmodule
