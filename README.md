@@ -1,3 +1,3 @@
 # Verilog-Projects:
 
-# Verilog Projects with RTL Coding and Testbenches. 
+Verilog Projects (RTL Coding and Testbenches). 
