@@ -23,7 +23,7 @@
 module N_bit_factorial_tb#(parameter N = 4)();
 
 reg   [N-1:0] number;
-wire [20*N-1:0] factorial;
+  wire [10*N-1:0] factorial;
 
 N_bit_factorial DUT(
 .Number(number),
