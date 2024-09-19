@@ -22,7 +22,7 @@
 
 module N_bit_factorial#(parameter N = 4)(
 input  [N-1:0] Number,// input number 
-output reg [20*N-1:0] Factorial // output factorial 
+   output reg [10*N-1:0] Factorial // output factorial 
    );
  
   integer i;
